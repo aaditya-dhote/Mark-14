@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Lemonada&display=swap');
+body{
+    font-family: 'Lemonada', cursive;
+    background-color: #581c87;
+    color:aliceblue;
+}
+
+h2{
+    text-align: center;
+}
+div{
+    text-align: center;
+    margin:3rem;
+    
+}
+
+
+.checkButton{
+    border:2px solid white;
+    color: aliceblue;
+    background-color: #581c87;
+    border-radius:2rem;
+    
+}

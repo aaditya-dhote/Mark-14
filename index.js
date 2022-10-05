@@ -13,13 +13,13 @@ var profitPercentage=  box3.value*100/box1.value  - 100     ;
 var lossPercentage=  100 - box3.value*100/box1.value ;                
 if(sp>cp){
 
-result.innerText="YAY! your profit is Rs "+ profit + " and your profit percentage is "+profitPercentage+"%";
+result.innerText="😇 YAY! your profit is Rs "+ profit + " and your profit percentage is "+profitPercentage+"% ";
 }
 else if(sp===cp){
   result.innerText="Should have gone for the option of FD";
 }
 else {
-    result.innerText="You lost Rs"+loss  + " and your loss percentage is "+lossPercentage+"%";
+    result.innerText="😬 You lost Rs"+loss  + " and your loss percentage is "+lossPercentage+"% ";
   };  
 }
 
